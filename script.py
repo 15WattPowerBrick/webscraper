@@ -10,8 +10,7 @@ import time
 # Initialize WebDriver
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
-# URL IS HIDDEN FOR SECTIRY
-
+# Replacce URL
 def login(driver, username, password):
     try:
         driver.get("https://example.com/login")
